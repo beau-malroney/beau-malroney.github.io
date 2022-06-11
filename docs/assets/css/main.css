@@ -1,0 +1,51 @@
+/* = = = = = = = = = = Tweet = = = = = = = = = = = = */
+
+tweet {
+  display: block;
+  cursor: pointer;
+  border-left: 5px solid var(--accent);
+  padding-left: 1em;
+  padding-right: 0.5em;
+  margin-left: 2.5em;
+  font-family: var(--font2);
+  background: var(--grey5);
+  font-weight: var(--font2-bold);
+  margin-bottom: 2em;
+  font-size: .9em;
+}
+
+tweet:hover {
+  opacity: 0.85;
+}
+
+tweet a {
+  text-decoration: none;
+}
+
+.tweetText {
+  display: block;
+}
+
+.tweetIcon {
+  display: block;
+  float: right;
+  font-weight: bold;
+  font-size: 0.6em;
+  line-height: 100%;
+  margin: 0 3px;
+  padding: 3px 5px 3px 3px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.tweetIcon i {
+  font-size: 1 em;
+  padding: 0 0 0 0.5em;
+}
+
+@media only screen and (max-width: 768px) {
+  tweet {
+    margin-left: 0;
+  }
+}
