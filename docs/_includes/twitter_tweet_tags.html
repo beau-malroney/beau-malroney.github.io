@@ -1,0 +1,32 @@
+{% if page.layout == "post" %}
+<script>
+  var tweetTags = document.getElementsByTagName("tweet");
+
+  if (tweetTags != null) {
+    for (i = 0; i < tweetTags.length; i++) {
+      tweetA = document.createElement("a")
+      tweetA.href = 'https://twitter.com/share?text='
+        + encodeURIComponent(tweetTags[i].textContent)
+        + '&via={{ social.twitter }}&url='
+        + window.location.href;
+      console.log(tweetA.href);
+      tweetA.target = "_blank";
+      tweetA.className = 'twitter';
+      tweetSpanText = document.createElement('span');
+      tweetSpanText.className = 'tweetText';
+      tweetSpanText.appendChild(document.createTextNode(tweetTags[i].textContent));
+      tweetSpanIcon = document.createElement('span');
+      tweetSpanIcon.className = 'tweetIcon';
+      tweetSpanIcon.appendChild(document.createTextNode("click to tweet"));
+      tweetI = document.createElement("i");
+      tweetI.className = 'fa fa-twitter';
+      tweetSpanIcon.appendChild(tweetI);
+      tweetA.appendChild(tweetSpanText);
+      tweetA.appendChild(tweetSpanIcon);
+      tweetTags[i].textContent = "";
+      tweetTags[i].appendChild(tweetA);
+    }
+  }
+
+</script>
+{% endif %}
