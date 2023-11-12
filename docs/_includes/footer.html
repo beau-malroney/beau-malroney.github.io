@@ -1,37 +1,18 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
-
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="{{ 'feed.xml' | relative_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Subscribe</span>
-          </a>
-        </p>
-      {%- if site.author %}
-        <ul class="contact-list">
-          {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
-          {% endif -%}
-          {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
-          {%- endif %}
-        </ul>
-      {%- endif %}
-      </div>
-      <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
-      </div>
-    </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
-    </div>
-
-  </div>
-
+<footer class="page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <h6 class="text-uppercase font-weight-bold">Additional Information</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12">
+            <h6 class="text-uppercase font-weight-bold">Contact</h6>
+            <p>1640 Riverside Drive, Hill Valley, California
+            <br/>info@mywebsite.com
+            <br/>+ 01 234 567 88
+            <br/>+ 01 234 567 89</p>
+        </div>
+    <div>
+    <div class="footer-copyright text-center">© 2020 Copyright: MyWebsite.com</div>
 </footer>
