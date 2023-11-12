@@ -110,5 +110,6 @@ sass:
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
- 
+
+include: ["_pages"]
 exclude: ["assets/css/sass/"]

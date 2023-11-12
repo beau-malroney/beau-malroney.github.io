@@ -3,9 +3,9 @@
 
 <!-- JS -->
 
-{% capture logo_url %}{{"/{{ site.logo  }}{% endcapture %}
+{% capture logo_url %}{{ relativebase }}{{ site.logo  }}{% endcapture %}
 {% assign logo_url = logo_url | replace: "//", "/" %}
-{% capture logo_url_dark %}{{"/{{ site.logo-dark  }}{% endcapture %}
+{% capture logo_url_dark %}{{ relativebase }}{{ site.logo-dark  }}{% endcapture %}
 {% assign logo_url_dark = logo_url_dark | replace: "//", "/" %}
 {% assign name = 'night_mode' %}
 {% assign night_mode = site.night_mode %}
@@ -110,8 +110,8 @@
 })();
 </script>
 
-<script src="{{"/assets/js/jekyll-search.js" | relative_base }}"></script>
-<script src="{{"/assets/js/jquery-3.6.0.min.js" | relative_base }}"></script>
+<script src="{{ relativebase }}assets/js/jekyll-search.js"></script>
+<script src="{{ relativebase }}assets/js/jquery-3.6.0.min.js"></script>
 
 {% if page.layout == "post" %}
   <script>
@@ -186,12 +186,12 @@
   <script src="//mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 {% endif %}
 
-<script src="{{"/assets/js/main.js" | relative_base }}"></script>
+<script src="{{ relativebase }}assets/js/main.js"></script>
 <script>
   SimpleJekyllSearch({
       searchInput: document.getElementById('search-input'),
       resultsContainer: document.getElementById('results-container'),
-      json: '{{"/search.json | relative_base }}"',
+      json: '{{ relativebase }}search.json',
       searchResultTemplate: '<li><a href="{url}" title="{description}">{title}</a><p>{description}</p></li>',
       noResultsText: 'No results found',
       fuzzy: false,
@@ -200,7 +200,7 @@
 </script>
 
 {% if page.infinite %}
-  <script src="{{"/assets/js/infinite-jekyll.js" | relative_base }}"></script>
+  <script src="{{ relativebase }}assets/js/infinite-jekyll.js"></script>
 {% endif %}
 
 {% if page.url contains "ipfs-404" %}
