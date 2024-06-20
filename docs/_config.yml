@@ -12,13 +12,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 
 # Build settings
 
-# generate social links in footer
-social_links:
-  twitter_username: bamalroney
-  github_username:  beau-malroney
-
-# Build settings
-
 # If you clone the Minima repo and build locally, use this setting.
 theme: minima
 
@@ -41,7 +34,7 @@ header_pages:
   - pages/resume.md
 
 # Set to `true` to show excerpts on the homepage.
-show_excerpts: true
+show_excerpts: false
 
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
