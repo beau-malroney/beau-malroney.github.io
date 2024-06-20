@@ -8,7 +8,10 @@ permalink: /resume/
 
 <center>beau-malroney@outlook.com · <a href="https://www.linkedin.com/in/beau-malroney-88065873" target="_blank">https://www.linkedin.com/in/beau-malroney-88065873</a></center>
 <br/>
-I am a technology enthusiast who is passionate about solving problems. My journey began as a teenager when I started modifying HTML for online profiles. This opened up a world of possibilities, and I have never looked back since. Over the years, I have learned many technologies and pushed the limits of each to find solutions to complex problems. My current roles include quickly learning new languages, technologies, and frameworks, finding optimal solutions for the problems at hand, and maintaining a positive attitude to keep morale high. I also enjoy automating redundant tasks to free up time for more meaningful work, and I am skilled in written and verbal communication, which helps me gather design requirements and engage with clients and teams.
+Driven by learning new technologies and applying them to solve problems. I began programming as a teenager by modifying
+HTML for online profiles. The world of possibilities was opened and there was no looking back. Since then, I have
+learned many technologies and pushed the limits of each to find what problems I can solve. My current roles include
+learning new Languages, Technologies and frameworks quickly, finding the best solution for the problem at hand and keeping a positive attitude to keep moral up, finding solutions to automate redundant tasks and free time for more meaningful work, written and verbal communications to gather design requirements and engage with the client or team. 
 
 ### Experience
 
@@ -18,20 +21,7 @@ I am a technology enthusiast who is passionate about solving problems. My journe
             <div align="left">
                 <b>
                     <font size="3em">
-                        JULY 2022 – PRESENT
-                        <p><font color='#268C59'>SENIOR SOFTWARE DEVELOPMENT ENGINEER</font>, Travelport </p>
-                    </font>
-                </b>
-                    Learning, Supporting, Analyzing and Automating tasks related to running the TPF Systems and Applications
-            </div>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <div align="right">
-                <b>
-                    <font size="3em">
-                        JANUARY 2021 – JULY 2022
+                        JANUARY 2021 – PRESENT
                         <p><font color='#268C59'>SENIOR PROFESSIONAL SYSTEM ENGINEER</font>, DXC </p>
                     </font>
                 </b>
@@ -41,7 +31,7 @@ I am a technology enthusiast who is passionate about solving problems. My journe
     </tr>
     <tr>
         <td>
-            <div align="left">
+            <div align="right">
                 <b>
                     <font size="3em">
                         MAY 2019 – JANUARY 2021
@@ -54,7 +44,7 @@ I am a technology enthusiast who is passionate about solving problems. My journe
     </tr>
     <tr>
         <td>
-            <div align="right">
+            <div align="left">
                 <b>
                     <font size="3em">
                         JUNE 2013 – MAY 2019
@@ -67,7 +57,7 @@ I am a technology enthusiast who is passionate about solving problems. My journe
     </tr>
     <tr>
         <td>
-            <div align=left>
+            <div align=right>
                 <b>
                     <font size="3em">
                         JULY 2011– MAY 2013
