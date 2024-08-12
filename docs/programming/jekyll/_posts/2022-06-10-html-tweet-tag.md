@@ -2,7 +2,6 @@
 layout: post
 title:  "HTML <tweet></tweet> tags"
 date:   2022-06-10 10:06:20 -0500
-categories: html tweet
 ---
 <hr>
 ## I was today years old when...
