@@ -2,7 +2,8 @@
 layout: post
 title: "Jekyll drafts for _posts"
 date:   2022-06-09 04:18:20 -0500
-categories: jekyll _posts
+categories: jekyll
+tags: _posts
 ---
 
 ## Jekyll drafts for _posts

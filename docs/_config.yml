@@ -8,7 +8,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >- # this means to ignore newlines until "baseurl:"
-  Driven to learn new things and share my knowledge with others.
+  "Passionate about learning and sharing knowledge with others."
 
 # Build settings
 
@@ -32,6 +32,8 @@ header_pages:
   - pages/index.md
   - pages/about.md
   - pages/resume.md
+  - pages/categories.md
+  - pages/tags.md
 
 # Set to `true` to show excerpts on the homepage.
 show_excerpts: false
@@ -69,6 +71,6 @@ minima:
   #  - { platform: pinterest,      user_url: "https://www.pinterest.com/jekyll" }
   #  - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/1234567/jekyll" }
   #  - { platform: telegram,       user_url: "https://t.me/jekyll" }
-   - { platform: twitter,        user_url: "https://twitter.com/bamalroney" }
-  #  - { platform: x,              user_url: "https://x.com/bamalroney" }
+  #  - { platform: twitter,        user_url: "https://twitter.com/bamalroney" }
+   - { platform: x,              user_url: "https://x.com/bamalroney" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }

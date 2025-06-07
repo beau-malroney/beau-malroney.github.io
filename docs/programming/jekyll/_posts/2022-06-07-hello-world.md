@@ -2,7 +2,8 @@
 layout: post
 title: "Hello World!"
 date:   2022-06-07 02:18:20 -0500
-categories: hello-world first-post jekyll
+categories: hello-world jekyll
+tags: first-post
 excerpt_separator: <!--more-->
 ---
 Hello World!

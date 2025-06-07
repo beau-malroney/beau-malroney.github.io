@@ -2,7 +2,8 @@
 layout: post
 title: "Jekyll Themes"
 date:   2022-06-08 06:18:20 -0500
-categories: jekyll jekyll-themes
+categories: jekyll
+tags: jekyll-themes
 ---
 
 Found a lot of neat themes that are available for Jekyll.

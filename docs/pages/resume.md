@@ -8,10 +8,13 @@ permalink: /resume/
 
 <center>beau-malroney@outlook.com · <a href="https://www.linkedin.com/in/beau-malroney-88065873" target="_blank">https://www.linkedin.com/in/beau-malroney-88065873</a></center>
 <br/>
-Driven by learning new technologies and applying them to solve problems. I began programming as a teenager by modifying
-HTML for online profiles. The world of possibilities was opened and there was no looking back. Since then, I have
-learned many technologies and pushed the limits of each to find what problems I can solve. My current roles include
-learning new Languages, Technologies and frameworks quickly, finding the best solution for the problem at hand and keeping a positive attitude to keep moral up, finding solutions to automate redundant tasks and free time for more meaningful work, written and verbal communications to gather design requirements and engage with the client or team. 
+Technology-driven problem solver with a passion for learning and innovation.
+I began programming as a teenager by modifying HTML for online profiles, sparking a lifelong curiosity for technology. Since then, I have explored a wide range of languages, frameworks, and tools—constantly pushing their limits to develop creative solutions. My current focus includes:
+- Rapidly learning and adapting to new programming languages, frameworks, and technologies.
+- Identifying and implementing the best solutions for complex problems.
+- Automating redundant tasks to improve efficiency and free time for higher-impact work.
+- Maintaining a positive, team-oriented mindset to foster collaboration and morale.
+- Communicating effectively through written and verbal channels to gather design requirements and engage with clients or teams.
 
 ### Experience
 
@@ -21,8 +24,8 @@ learning new Languages, Technologies and frameworks quickly, finding the best so
             <div align="left">
                 <b>
                     <font size="3em">
-                        JANUARY 2021 – PRESENT
-                        <p><font color='#268C59'>SENIOR PROFESSIONAL SYSTEM ENGINEER</font>, DXC </p>
+                        July 2022 – PRESENT
+                        <p><font color='#268C59'>SENIOR PROFESSIONAL SYSTEM ENGINEER</font>, Travelport </p>
                     </font>
                 </b>
                     Learning, Supporting, Analyzing and Automating tasks related to running the TPF Systems and Applications
@@ -32,6 +35,19 @@ learning new Languages, Technologies and frameworks quickly, finding the best so
     <tr>
         <td>
             <div align="right">
+                <b>
+                    <font size="3em">
+                        JANUARY 2021 – July 2022
+                        <p><font color='#268C59'>SENIOR PROFESSIONAL SYSTEM ENGINEER</font>, DXC </p>
+                    </font>
+                </b>
+                    Learning, Supporting, Analyzing and Automating tasks related to running the TPF Systems and Applications
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div align="left">
                 <b>
                     <font size="3em">
                         MAY 2019 – JANUARY 2021
@@ -44,7 +60,7 @@ learning new Languages, Technologies and frameworks quickly, finding the best so
     </tr>
     <tr>
         <td>
-            <div align="left">
+            <div align="right">
                 <b>
                     <font size="3em">
                         JUNE 2013 – MAY 2019
@@ -57,7 +73,7 @@ learning new Languages, Technologies and frameworks quickly, finding the best so
     </tr>
     <tr>
         <td>
-            <div align=right>
+            <div align=left>
                 <b>
                     <font size="3em">
                         JULY 2011– MAY 2013
@@ -269,4 +285,9 @@ learning new Languages, Technologies and frameworks quickly, finding the best so
 </table>
 
 ### Activites
-Outside of work I enjoy exploring new technologies and leveraging them for side projects and spending time with my children. The most recent side projects I have worked on include using a raspberry pi to host a web server (Ruby on Rails), using a breadboard to programmatically turn a light on/off (Python), leveraging public APIs and data for machine learning and creating this website with Jekyll/Github Pages.	
+Beyond my professional work, I enjoy exploring new technologies through side projects and spending time with my children. Recent projects include:
+- Hosting a web server on a Raspberry Pi using Ruby on Rails.
+- Building an automated lighting system with a breadboard and Python.
+- Leveraging public APIs and data for machine learning applications.
+- Developing a personal website using Jekyll and GitHub Pages.
+These projects allow me to experiment with innovative solutions, deepen my technical expertise, and apply problem-solving in real-world scenarios.
