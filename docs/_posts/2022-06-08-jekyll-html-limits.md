@@ -8,6 +8,6 @@ categories: jekyll markdown html
 Hello all!
 
 Today I worked on adding my resume as a Jekyll Page.
-- Check it out here [resume](../pages/resume.md)
+- Check it out here [resume]({{ site.baseurl }}/resume)
 
 I was able to intermix a lot of CSS/HTML/MD in the .md file.
