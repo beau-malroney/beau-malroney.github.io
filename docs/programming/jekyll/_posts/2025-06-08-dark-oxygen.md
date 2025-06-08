@@ -2,7 +2,7 @@
 layout: post
 title: "Dark Oxygen: A Deep-Sea Mystery"
 date: 2025-06-08
-categories: [science, oceanography]
+categories: science oceanography
 ---
 
 ### Unveiling Dark Oxygen: The Hidden Breath of the Deep

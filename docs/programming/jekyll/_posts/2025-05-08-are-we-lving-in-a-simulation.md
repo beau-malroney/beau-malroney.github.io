@@ -2,8 +2,8 @@
 layout: post
 title: "Are We Living in a Simulation?"
 date: 2025-05-08
-categories: Philosophy, Science
-tags: [Simulation Hypothesis, Reality, AI, Physics]
+categories: philosophy
+tags: [simulation, reality]
 ---
 
 ### **Are We Living in a Simulation?**  

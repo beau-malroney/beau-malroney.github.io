@@ -2,8 +2,8 @@
 layout: post
 title: "The AI Dilemma: Can ChatGPT o1 Deceive Researchers?"
 date: 2025-06-07
-categories: AI Ethics
-tags: [AI, OpenAI, ChatGPT, Ethics]
+categories: AI ethics
+tags: [OpenAI, ChatGPT]
 ---
 
 ### **AI Autonomy: A Growing Concern?**  

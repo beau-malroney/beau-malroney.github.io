@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
 title: "Categories"
 permalink: /categories/
 ---
 
-<h1>Categories</h1>
 <ul>
 {% for category in site.categories %}
   <li><a name="{{ category | first }}">{{ category | first }}</a>

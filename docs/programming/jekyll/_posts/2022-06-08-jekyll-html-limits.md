@@ -2,7 +2,7 @@
 layout: post
 title: "Jekyll Markdown/HTML"
 date:   2022-06-08 06:18:20 -0500
-categories: [Tech, jekyll, html, markdown]
+categories: jekyll markdown html
 ---
 
 Hello all!

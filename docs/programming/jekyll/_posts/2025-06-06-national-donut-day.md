@@ -2,8 +2,8 @@
 layout: post
 title: "World Donut Day 2025: A Sweet Celebration"
 date: 2025-06-06
-categories: Food, Holidays
-tags: [Donuts, National Donut Day, Celebration, History]
+categories: food holidays
+tags: [celebration, history]
 ---
 
 ### **World Donut Day 2025: A Sweet Celebration**  

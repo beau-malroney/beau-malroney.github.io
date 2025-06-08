@@ -3,7 +3,7 @@ layout: post
 title: "World Otter Day: How You Can Help These Playful Creatures"
 date: 2025-05-28
 categories: wildlife conservation
-tags: otters, environment, wildlife, World Otter Day
+tags: [otters, environment, wildlife, World Otter Day]
 ---
 
 ### Celebrating World Otter Day 🦦
