@@ -1,0 +1,11 @@
+{% assign items = site.data.amazon_picks %}
+{% for item in items %}
+### 🔹 {{ item.name }}
+![{{ item.alt }}]({{ item.image }})  
+**Why I chose it:**  
+- {{ item.feature1 }}  
+- {{ item.feature2 }}  
+- {{ item.overlay }}
+
+👉 [Buy on Amazon]({{ item.link }})
+{% endfor %}

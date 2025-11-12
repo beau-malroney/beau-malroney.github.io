@@ -74,3 +74,5 @@ minima:
   #  - { platform: twitter,        user_url: "https://twitter.com/bamalroney" }
    - { platform: x,              user_url: "https://x.com/bamalroney" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
+
+permalink: /:categories/:title/
