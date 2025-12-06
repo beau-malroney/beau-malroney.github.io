@@ -4,7 +4,6 @@ title: "Remembering the Magic Kingdom Skyway"
 description: "A look back at the Magic Kingdom’s original Skyway gondola ride that floated between Fantasyland and Tomorrowland from 1971 to 1999."
 tags: [disney, magic-kingdom, skyway, nostalgia, walt-disney-world]
 date: 2025-12-06
-permalink: /magic-kingdom-skyway/
 ---
 
 The Magic Kingdom once had its own gondola lift, the Skyway, which quietly glided over Fantasyland and Tomorrowland from opening day in 1971 until it closed in 1999. It offered short, one‑way “bucket” rides with great views, and its legacy now lives on mostly in memories, photos, and a few subtle remnants in the park.
