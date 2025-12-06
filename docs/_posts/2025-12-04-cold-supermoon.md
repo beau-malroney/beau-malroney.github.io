@@ -5,7 +5,7 @@ description: "Tonight's Cold Moon on December 4, 2025, peaks as a supermoon at 5
 tags: [astronomy, full-moon, supermoon, cold-moon, 2025]
 date: 2025-12-04
 permalink: /cold-moon-2025/
-***
+---
 
 Tonight, December 4, 2025, marks the Cold Moon—the year's final full moon and third supermoon—reaching peak illumination at 5:14 p.m. CST (23:14 UTC). This event occurs as the moon sits just 221,806 miles from Earth at perigee, making it appear up to 14% larger and 30% brighter than average full moons.[^3][^2][^1]
 
