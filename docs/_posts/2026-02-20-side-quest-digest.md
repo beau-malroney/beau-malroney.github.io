@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Side Quest Dispatch – February 20, 2026"
+date: 2026-02-20
 tags: [news, pokemon, disney, gaming, oklahoma, concerts]
 ---
 
