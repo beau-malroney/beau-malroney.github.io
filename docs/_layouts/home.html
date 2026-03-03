@@ -9,21 +9,21 @@ layout: base
 
   {{ content }}
 
+  ## Posts (from _posts)
 
   {% if site.paginate %}
-    {% assign posts = paginator.posts %}
+    {% assign blog_posts = paginator.posts %}
   {% else %}
-    {% assign posts = site.posts %}
+    {% assign blog_posts = site.posts %}
   {% endif %}
 
-
-  {%- if posts.size > 0 -%}
+  {%- if blog_posts.size > 0 -%}
     {%- if page.list_title -%}
       <h2 class="post-list-heading">{{ page.list_title }}</h2>
     {%- endif -%}
     <ul class="post-list">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in posts -%}
+      {%- for post in blog_posts -%}
       <li>
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <h3>
@@ -38,24 +38,29 @@ layout: base
       {%- endfor -%}
     </ul>
 
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
-
+    {% include pager.html %}
   {%- endif -%}
 
+  ## side-quest-dispatch (from side-quest-dispatch/_posts)
+
+  {%- assign side-quest-dispatch = site.categories.side-quest-dispatch | sort: 'date' | reverse -%}
+  {%- if side-quest-dispatch.size > 0 -%}
+    <h2 class="post-list-heading">side-quest-dispatch</h2>
+    <ul class="post-list">
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+      {%- for side-quest in side-quest-dispatch -%}
+      <li>
+        <span class="post-meta">{{ side-quest.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ side-quest.url | relative_url }}">
+            {{ side-quest.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ side-quest.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+  {%- endif -%}
 </div>
