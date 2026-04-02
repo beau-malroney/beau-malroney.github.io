@@ -4,63 +4,53 @@ layout: base
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
-  ## Posts (from _posts)
-
-  {% if site.paginate %}
-    {% assign blog_posts = paginator.posts %}
-  {% else %}
-    {% assign blog_posts = site.posts %}
-  {% endif %}
+  {%- assign sq_posts = site.posts | where_exp:"p","p.path contains 'side-quest-dispatch/_posts'" -%}
+  {%- assign blog_posts = site.posts | where_exp:"p","p.path contains 'blog/_posts'" -%}
 
   {%- if blog_posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for post in blog_posts -%}
-      <li>
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
-
-    {% include pager.html %}
+  {%- if page.list_title -%}
+  <h2 class="post-list-heading">{{ page.list_title }}</h2>
+  {%- endif -%}
+  <ul class="post-list">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- for post in blog_posts -%}
+    <li>
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
   {%- endif -%}
 
-  ## side-quest-dispatch (from side-quest-dispatch/_posts)
-
-  {%- assign side-quest-dispatch = site.categories.side-quest-dispatch | sort: 'date' | reverse -%}
-  {%- if side-quest-dispatch.size > 0 -%}
-    <h2 class="post-list-heading">side-quest-dispatch</h2>
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {%- for side-quest in side-quest-dispatch -%}
-      <li>
-        <span class="post-meta">{{ side-quest.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ side-quest.url | relative_url }}">
-            {{ side-quest.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ side-quest.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+  {%- if sq_posts.size > 0 -%}
+  <h2 class="post-list-heading">Side Quest Dispatch</h2>
+  <ul class="post-list side-quest-list">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- for post in sq_posts -%}
+    <li>
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+      {%- endif -%}
+    </li>
+    {%- endfor -%}
+  </ul>
   {%- endif -%}
 </div>
