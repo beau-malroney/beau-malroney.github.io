@@ -2,19 +2,36 @@
 layout: base
 ---
 
-<div class="home">
+<div id="top" class="home">
   {%- if page.title -%}
   <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
+  <!-- top quick-links: two squares that jump to the lists below -->
+  <div class="top-squares" style="display:flex;gap:1rem;margin:1rem 0;">
+    <a href="#post-list-heading" class="square-link" aria-label="Jump to blog posts" style="text-decoration:none;">
+      <div
+        style="width:120px;height:120px;background:#f3f4f6;color:#111;display:flex;align-items:center;justify-content:center;border-radius:8px;">
+        Blog posts
+      </div>
+    </a>
+    <a href="#side-quest-list" class="square-link" aria-label="Jump to Side Quest Dispatch"
+      style="text-decoration:none;">
+      <div
+        style="width:120px;height:120px;background:#eef2ff;color:#111;display:flex;align-items:center;justify-content:center;border-radius:8px;">
+        Side Quest
+      </div>
+    </a>
+  </div>
+
   {%- assign sq_posts = site.posts | where_exp:"p","p.path contains 'side-quest-dispatch/_posts'" -%}
   {%- assign blog_posts = site.posts | where_exp:"p","p.path contains 'blog/_posts'" -%}
 
   {%- if blog_posts.size > 0 -%}
   {%- if page.list_title -%}
-  <h2 class="post-list-heading">{{ page.list_title }}</h2>
+  <h2 id="post-list-heading" class="post-list-heading">{{ page.list_title }}</h2>
   {%- endif -%}
   <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
@@ -35,7 +52,7 @@ layout: base
   {%- endif -%}
 
   {%- if sq_posts.size > 0 -%}
-  <h2 class="post-list-heading">Side Quest Dispatch</h2>
+  <h2 id="side-quest-list" class="post-list-heading">Side Quest Dispatch</h2>
   <ul class="post-list side-quest-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
     {%- for post in sq_posts -%}
@@ -53,4 +70,10 @@ layout: base
     {%- endfor -%}
   </ul>
   {%- endif -%}
+
+  <!-- floating back-to-top button -->
+  <a href="#top" class="back-to-top" aria-label="Back to top"
+    style="position:fixed;right:1rem;bottom:1rem;width:48px;height:48px;background:#111;color:#fff;display:flex;align-items:center;justify-content:center;border-radius:9999px;text-decoration:none;box-shadow:0 4px 8px rgba(0,0,0,0.2);">
+    ↑
+  </a>
 </div>
