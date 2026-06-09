@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Faux's Demonic Pact League Guide Checklist</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #111827;
+      color: #e5e7eb;
+      margin: 0;
+      padding: 2rem 1rem 4rem;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #020617;
+      border-radius: 0.75rem;
+      padding: 2rem;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.7);
+      border: 1px solid #1f2937;
+    }
+    h1, h2, h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-weight: 700;
+    }
+    h1 {
+      font-size: 1.8rem;
+      letter-spacing: 0.03em;
+    }
+    h2 {
+      font-size: 1.3rem;
+      border-bottom: 1px solid #374151;
+      padding-bottom: 0.25rem;
+    }
+    h3 {
+      font-size: 1.05rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #9ca3af;
+      margin-top: 1.25rem;
+    }
+    p {
+      margin: 0.25rem 0 0.75rem;
+    }
+    a {
+      color: #38bdf8;
+    }
+    .meta {
+      color: #9ca3af;
+      font-size: 0.95rem;
+    }
+    .section-description {
+      color: #9ca3af;
+      font-size: 0.95rem;
+      margin-bottom: 0.75rem;
+    }
+    .checklist {
+      list-style: none;
+      padding: 0;
+      margin: 0.25rem 0 1.25rem;
+    }
+    .checklist li {
+      margin: 0.1rem 0;
+      padding: 0.3rem 0.4rem;
+      border-radius: 0.4rem;
+      transition: background 0.15s ease;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.35rem;
+    }
+    .checklist li:nth-child(odd) {
+      background: rgba(15,23,42,0.7);
+    }
+    .checklist li:nth-child(even) {
+      background: rgba(15,23,42,0.4);
+    }
+    .checklist li:hover {
+      background: rgba(55,65,81,0.5);
+    }
+    .checklist input[type="checkbox"] {
+      margin-top: 0.18rem;
+      cursor: pointer;
+      transform: scale(1.05);
+      accent-color: #38bdf8;
+    }
+    .label-text {
+      flex: 1;
+      cursor: pointer;
+    }
+    .note {
+      font-size: 0.9rem;
+      color: #9ca3af;
+      margin-top: 0.25rem;
+    }
+    .subtle {
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+    .footer-note {
+      font-size: 0.9rem;
+      color: #9ca3af;
+      margin-top: 1.5rem;
+      border-top: 1px solid #1f2937;
+      padding-top: 0.75rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Faux's Demonic Pact League Guide</h1>
+    <p class="meta">3,300+ points, 181 tasks — checklist version</p>
+
+    <p>
+      Full video walkthrough:
+      <a href="https://youtu.be/Job-3WdjVIs" target="_blank" rel="noopener noreferrer">
+        https://youtu.be/Job-3WdjVIs
+      </a>
+    </p>
+
+    <h2>Relics (reference)</h2>
+    <p class="section-description">
+      My relics for this route (you do not have to mirror these exactly, but many steps lean toward them):
+    </p>
+    <ul class="checklist">
+      <li><input type="checkbox" id="rel-endless-harvest"><label class="label-text" for="rel-endless-harvest">Endless Harvest</label></li>
+      <li><input type="checkbox" id="rel-woodsman"><label class="label-text" for="rel-woodsman">Woodsman</label></li>
+      <li><input type="checkbox" id="rel-evil-eye"><label class="label-text" for="rel-evil-eye">Evil Eye</label></li>
+      <li><input type="checkbox" id="rel-butlers-bell"><label class="label-text" for="rel-butlers-bell">Butler's Bell</label></li>
+      <li><input type="checkbox" id="rel-larcenist"><label class="label-text" for="rel-larcenist">Larcenist</label></li>
+      <li><input type="checkbox" id="rel-culling-spree"><label class="label-text" for="rel-culling-spree">Culling Spree</label></li>
+      <li><input type="checkbox" id="rel-reload-soul-harvest"><label class="label-text" for="rel-reload-soul-harvest">Reload: Soul Harvest</label></li>
+      <li><input type="checkbox" id="rel-minion"><label class="label-text" for="rel-minion">Minion</label></li>
+    </ul>
+
+    <p class="note">
+      Note: The guide leans toward these relics; if you pick different Tier 1 &amp; 2 relics, adjust where needed and be mindful of early coin amounts.
+    </p>
+
+    <h2>Early Varlamore Setup</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t01"><label class="label-text" for="t01">Open the Leagues Menu</label></li>
+      <li><input type="checkbox" id="t02"><label class="label-text" for="t02">Complete the Leagues Tutorial</label></li>
+      <li><input type="checkbox" id="t03"><label class="label-text" for="t03">Claim first relic (e.g. Endless Harvest), turn off auto bank</label></li>
+      <li><input type="checkbox" id="t04"><label class="label-text" for="t04">Toggle run off and back on</label></li>
+      <li><input type="checkbox" id="t05"><label class="label-text" for="t05">Pickpocket a Citizen to level 5 Thieving</label></li>
+      <li><input type="checkbox" id="t06"><label class="label-text" for="t06">Enter the eastern house and fill bucket at the water pump</label></li>
+      <li><input type="checkbox" id="t07"><label class="label-text" for="t07">Run north and pet Renu</label></li>
+      <li><input type="checkbox" id="t08"><label class="label-text" for="t08">Use the Bow emote near Renu</label></li>
+      <li><input type="checkbox" id="t09"><label class="label-text" for="t09">Travel with the bird to anywhere</label></li>
+      <li><input type="checkbox" id="t10"><label class="label-text" for="t10">Home teleport (leave Yama's lair back to Varlamore if needed)</label></li>
+      <li><input type="checkbox" id="t11"><label class="label-text" for="t11">Run west and attack dummy to level 8 Attack</label></li>
+      <li><input type="checkbox" id="t12"><label class="label-text" for="t12">Run to Bazaar (market) and use Cry emote near a child</label></li>
+      <li><input type="checkbox" id="t13"><label class="label-text" for="t13">Thieve cakes until full inventory (14+ cakes)</label></li>
+      <li><input type="checkbox" id="t14"><label class="label-text" for="t14">Run northwest to General Store</label></li>
+      <li><input type="checkbox" id="t15"><label class="label-text" for="t15">Sell cakes 1 at a time to reach 260+ GP</label></li>
+      <li><input type="checkbox" id="t16"><label class="label-text" for="t16">Buy: 1 knife, 1 chisel, 1 spade, 2 bird snares</label></li>
+      <li><input type="checkbox" id="t17"><label class="label-text" for="t17">Run south to clothing shop and buy: Pink skirt, Brown apron, Red cape</label></li>
+      <li><input type="checkbox" id="t18"><label class="label-text" for="t18">Run straight south of General Store to southern Varlamore wall and kill a rat with a bow</label></li>
+      <li><input type="checkbox" id="t19"><label class="label-text" for="t19">Run east to altar and Salute near southern Statue of Quoatlos</label></li>
+      <li><input type="checkbox" id="t20"><label class="label-text" for="t20">Stand near altar and activate Thick Skin</label></li>
+      <li><input type="checkbox" id="t21"><label class="label-text" for="t21">Run east and pet Xolo near Bird Bath</label></li>
+      <li><input type="checkbox" id="t22"><label class="label-text" for="t22">Drink from Bird Bath</label></li>
+      <li><input type="checkbox" id="t23"><label class="label-text" for="t23">Chop or punch 2 trees (reach ~15+ Woodcutting with Barb relic)</label></li>
+      <li><input type="checkbox" id="t24"><label class="label-text" for="t24">Burn 1 log</label></li>
+      <li><input type="checkbox" id="t25"><label class="label-text" for="t25">Fletch 1 log into arrow shafts</label></li>
+      <li><input type="checkbox" id="t26"><label class="label-text" for="t26">Run to east bank, deposit all, withdraw coins</label></li>
+      <li><input type="checkbox" id="t27"><label class="label-text" for="t27">Enter Colosseum, run north and talk to gladiator</label></li>
+      <li><input type="checkbox" id="t28"><label class="label-text" for="t28">Exit, run north and talk to Port Master (unlock Sailing)</label></li>
+    </ul>
+
+    <h2>Varlamore Crafting & Early Money</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t29"><label class="label-text" for="t29">Run west and buy 10 buckets of sand, 10 soda ash, and a glassblowing pipe from charter</label></li>
+      <li><input type="checkbox" id="t30"><label class="label-text" for="t30">Run south to furnace and make 10 molten glass, deposit at bank</label></li>
+      <li><input type="checkbox" id="t31"><label class="label-text" for="t31">Run back to charter, buy another 10 buckets of sand and 10 soda ash</label></li>
+      <li><input type="checkbox" id="t32"><label class="label-text" for="t32">Make 10 more molten glass and blow into oil lanterns for 20 Crafting</label></li>
+      <li><input type="checkbox" id="t33"><label class="label-text" for="t33">Bank oil lanterns and withdraw: bucket of water (to empty), air &amp; mind runes, dramen staff (equip), spade, pot</label></li>
+      <li><input type="checkbox" id="t34"><label class="label-text" for="t34">Run west to Crafting shop and buy shears</label></li>
+    </ul>
+
+    <h2>South of Varlamore & Zanaris Start</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t35"><label class="label-text" for="t35">Run south of Varlamore from bank</label></li>
+      <li><input type="checkbox" id="t36"><label class="label-text" for="t36">Pick 6 cabbages and drop them</label></li>
+      <li><input type="checkbox" id="t37"><label class="label-text" for="t37">Kill 1 chicken and pick up bones</label></li>
+      <li><input type="checkbox" id="t38"><label class="label-text" for="t38">South of the cabbage field, Sit emote by the cabbage near dogs</label></li>
+      <li><input type="checkbox" id="t39"><label class="label-text" for="t39">Run west and pick sweetcorn, then drop it</label></li>
+      <li><input type="checkbox" id="t40"><label class="label-text" for="t40">Give Molossus the bones (north/northwest of sweetcorn)</label></li>
+      <li><input type="checkbox" id="t41"><label class="label-text" for="t41">Run west and pick an onion, eat it</label></li>
+      <li><input type="checkbox" id="t42"><label class="label-text" for="t42">Run west and pick 6 wheat, keep 1 and drop 5</label></li>
+      <li><input type="checkbox" id="t43"><label class="label-text" for="t43">Use windmill to make flour (can drop flour)</label></li>
+      <li><input type="checkbox" id="t44"><label class="label-text" for="t44">Run northwest to Ortus farm and pick 6 potatoes (drop them)</label></li>
+      <li><input type="checkbox" id="t45"><label class="label-text" for="t45">Buy rake from Harminia, rake flower patch</label></li>
+      <li><input type="checkbox" id="t46"><label class="label-text" for="t46">Run north and milk Dairy Buffalo</label></li>
+      <li><input type="checkbox" id="t47"><label class="label-text" for="t47">Run west and shear 1 alpaca</label></li>
+      <li><input type="checkbox" id="t48"><label class="label-text" for="t48">Run southeast to fairy ring and travel to Zanaris</label></li>
+      <li><input type="checkbox" id="t49"><label class="label-text" for="t49">Kill a cow, pick up cowhide, bury bones</label></li>
+      <li><input type="checkbox" id="t50"><label class="label-text" for="t50">Get Slayer task from Chaeldar</label></li>
+    </ul>
+
+    <h2>Aldarin Vineyards & Gem Crafting Money</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t51"><label class="label-text" for="t51">Fairy ring to Aldarin (CKQ)</label></li>
+      <li><input type="checkbox" id="t52"><label class="label-text" for="t52">Run south and talk to Vineyard Foreman, accept help</label></li>
+      <li><input type="checkbox" id="t53"><label class="label-text" for="t53">Search grape vineyards for 4 shimmering grape vines</label></li>
+      <li><input type="checkbox" id="t54"><label class="label-text" for="t54">Turn in to Vineyard Foreman and destroy grape barrel</label></li>
+      <li><input type="checkbox" id="t55"><label class="label-text" for="t55">Run east to bank and deposit all</label></li>
+      <li><input type="checkbox" id="t56"><label class="label-text" for="t56">Withdraw coins (25+ GP) and chisel</label></li>
+      <li><input type="checkbox" id="t57"><label class="label-text" for="t57">Buy chisel from northern General Store if missing</label></li>
+      <li><input type="checkbox" id="t58"><label class="label-text" for="t58">Run to Crafting shop (northeast of bank)</label></li>
+      <li><input type="checkbox" id="t59"><label class="label-text" for="t59">Money maker: buy uncut sapphires, cut, then sell (1 at a time) for GP</label></li>
+      <li><input type="checkbox" id="t60"><label class="label-text" for="t60">Upgrade to emeralds and rubies; aim for ~50k GP (return later at 8x rate)</label></li>
+      <li><input type="checkbox" id="t61"><label class="label-text" for="t61">Buy 3 sapphires, 3 emeralds, 3 rubies for later</label></li>
+    </ul>
+
+    <h2>Sunset Coast & Civitas Illa Fortis</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t62"><label class="label-text" for="t62">Run east to charters and buy: 5 raw rabbit, Tyras helm, bucket, tinderbox</label></li>
+      <li><input type="checkbox" id="t63"><label class="label-text" for="t63">Cook rabbit at nearby range, eat 1 cooked rabbit (buy more if you fail)</label></li>
+      <li><input type="checkbox" id="t64"><label class="label-text" for="t64">Kill a seagull</label></li>
+      <li><input type="checkbox" id="t65"><label class="label-text" for="t65">Travel with Antonia to Sunset Coast (no charter)</label></li>
+      <li><input type="checkbox" id="t66"><label class="label-text" for="t66">Buy torch from General Store, light it, then drop torch and tinderbox</label></li>
+      <li><input type="checkbox" id="t67"><label class="label-text" for="t67">Fill bucket at sand pit north of store, then drop sand</label></li>
+      <li><input type="checkbox" id="t68"><label class="label-text" for="t68">Run to Fishing Shop (southeast) and buy 1,000 feathers and big net</label></li>
+      <li><input type="checkbox" id="t69"><label class="label-text" for="t69">Charter to Civitas Illa Fortis</label></li>
+      <li><input type="checkbox" id="t70"><label class="label-text" for="t70">Buy 15 pineapples from charter and bank them</label></li>
+      <li><input type="checkbox" id="t71"><label class="label-text" for="t71">Run south to pond (Park) and fish until you obtain: casket, old boot, house key</label></li>
+      <li><input type="checkbox" id="t72"><label class="label-text" for="t72">Run northwest to bar and buy: 1 cup of tea, 1 Moon-lite, 1 stew, 1 jug of wine</label></li>
+      <li><input type="checkbox" id="t73"><label class="label-text" for="t73">Drink Moon-lite and jug of wine</label></li>
+      <li><input type="checkbox" id="t74"><label class="label-text" for="t74">Run southwest and buy POH</label></li>
+      <li><input type="checkbox" id="t75"><label class="label-text" for="t75">Run southeast to mace shop, buy steel mace</label></li>
+      <li><input type="checkbox" id="t76"><label class="label-text" for="t76">Run to Civitas Bazaar and successfully thieve from citizen 10 times</label></li>
+      <li><input type="checkbox" id="t77"><label class="label-text" for="t77">Buy 1 silk from silk trader and sell it back</label></li>
+      <li><input type="checkbox" id="t78"><label class="label-text" for="t78">Run west near west bank and give Oli a stew</label></li>
+    </ul>
+
+    <h2>Aubernvale, Forestry & Woodsman Extras</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t79"><label class="label-text" for="t79">Use quetzal (Renu) to travel to Aubernvale (top left)</label></li>
+      <li><input type="checkbox" id="t80"><label class="label-text" for="t80">Drink cup of tea</label></li>
+      <li><input type="checkbox" id="t81"><label class="label-text" for="t81">Run south to bank, deposit steel mace, big net, Tyras helm, bucket</label></li>
+      <li><input type="checkbox" id="t82"><label class="label-text" for="t82">Withdraw axe, knife, cowhide, wool</label></li>
+      <li><input type="checkbox" id="t83"><label class="label-text" for="t83">Run south to staff shop, buy air and fire staff, equip</label></li>
+      <li><input type="checkbox" id="t84"><label class="label-text" for="t84">Run west to axe shop, buy steel, mithril, adamant axe</label></li>
+      <li><input type="checkbox" id="t85"><label class="label-text" for="t85">Chop dead tree near river (endless harvest auto-bank logs, aim for 45 logs banked)</label></li>
+      <li><input type="checkbox" id="t86"><label class="label-text" for="t86">Withdraw a log if using Endless Harvest and make 1 plank at sawmill</label></li>
+      <li><input type="checkbox" id="t87"><label class="label-text" for="t87">Run southwest and tan cowhide into leather</label></li>
+      <li><input type="checkbox" id="t88"><label class="label-text" for="t88">Buy needle and thread in General Store</label></li>
+      <li><input type="checkbox" id="t89"><label class="label-text" for="t89">Craft leather chaps</label></li>
+      <li><input type="checkbox" id="t90"><label class="label-text" for="t90">Admire logs east of the General Store</label></li>
+      <li><input type="checkbox" id="t91"><label class="label-text" for="t91">Step on Ent trail near maple trees and wait for Ent to walk by</label></li>
+      <li><input type="checkbox" id="t92"><label class="label-text" for="t92">Run south to Nemus Retreat and claim Forestry kit</label></li>
+      <li><input type="checkbox" id="t93"><label class="label-text" for="t93">Equip Forestry kit</label></li>
+      <li><input type="checkbox" id="t94"><label class="label-text" for="t94">Pick 6 flax</label></li>
+      <li><input type="checkbox" id="t95"><label class="label-text" for="t95">Spin a ball of wool and 1 bowstring</label></li>
+    </ul>
+
+    <h3>Endless Harvest / Woodsman Optional Block</h3>
+    <p class="subtle">These are Woodsman-leaning tasks; others can skip or return later.</p>
+    <ul class="checklist">
+      <li><input type="checkbox" id="w01"><label class="label-text" for="w01">Fletch headless arrows until 20 Fletching</label></li>
+      <li><input type="checkbox" id="w02"><label class="label-text" for="w02">Chop oaks south until 60 oak logs banked, burn 1, fletch 1 oak shortbow, fletch 25 oak stocks, decorate oak totem (5 oaks)</label></li>
+      <li><input type="checkbox" id="w03"><label class="label-text" for="w03">Chop willows until 100 burn task; then Woodsman burn off and bank 56 willows (1 shortbow, 50 longbows, 5 for totem)</label></li>
+      <li><input type="checkbox" id="w04"><label class="label-text" for="w04">Finish 1000 arrow shafts using spare oaks/willows</label></li>
+      <li><input type="checkbox" id="w05"><label class="label-text" for="w05">Chop 50 maple logs (burn 25, bank 25)</label></li>
+      <li><input type="checkbox" id="w06"><label class="label-text" for="w06">Fletch 25 maple longbow (u)</label></li>
+      <li><input type="checkbox" id="w07"><label class="label-text" for="w07">Complete Vale Totem miniquest (5 oak, 5 willow, 5 maple logs)</label></li>
+    </ul>
+
+    <h2>Tal Teklan, Tal Boats & Runes</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t96"><label class="label-text" for="t96">Deposit all, withdraw: coins, axe, 2 bird snares, green cape, steel mace</label></li>
+      <li><input type="checkbox" id="t97"><label class="label-text" for="t97">Run south to rowboat and travel to Tal Teklan</label></li>
+      <li><input type="checkbox" id="t98"><label class="label-text" for="t98">Run north to rune shop; buy 5 of each elemental rune pack, 5 mind rune packs, 5 cosmics, 75 natures, 1 chaos pack, 1 death rune</label></li>
+      <li><input type="checkbox" id="t99"><label class="label-text" for="t99">Low alch anything for Magic XP</label></li>
+      <li><input type="checkbox" id="t100"><label class="label-text" for="t100">Run west and buy purple dye; dye cape purple</label></li>
+      <li><input type="checkbox" id="t101"><label class="label-text" for="t101">Run west and dance near bards on dock</label></li>
+      <li><input type="checkbox" id="t102"><label class="label-text" for="t102">Run southeast to Ranged shop; buy 10 iron arrows and a shortbow</label></li>
+      <li><input type="checkbox" id="t103"><label class="label-text" for="t103">Bank and deposit 5 Nature runes</label></li>
+      <li><input type="checkbox" id="t104"><label class="label-text" for="t104">Run east out of Tal Teklan, kill frog near Doom dungeon shortcut (use 6+ iron arrows)</label></li>
+      <li><input type="checkbox" id="t105"><label class="label-text" for="t105">Cut any regular tree</label></li>
+    </ul>
+
+    <h3>Bird Tasks (Optional without Woodsman)</h3>
+    <ul class="checklist">
+      <li><input type="checkbox" id="b01"><label class="label-text" for="b01">Run north across bridge then east to Crimson swifts and catch 8 (16 if not Woodsman)</label></li>
+      <li><input type="checkbox" id="b02"><label class="label-text" for="b02">Run west to bridge, cross south then run southwest to Tropical wagtails and catch 15</label></li>
+    </ul>
+
+    <h2>Kastori & Gloomthorn Loop</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t106"><label class="label-text" for="t106">Take rowboat near Tal Teklan to Kastori</label></li>
+      <li><input type="checkbox" id="t107"><label class="label-text" for="t107">Run southwest to Fishing shop; buy small net, fishing rod, fly rod, harpoon, lobster pot, 50 bait, and raw sardines to fill inventory</label></li>
+      <li><input type="checkbox" id="t108"><label class="label-text" for="t108">Cook sardines at range west of shop until 5 cooked</label></li>
+      <li><input type="checkbox" id="t109"><label class="label-text" for="t109">Run southwest and fish shrimp until 10+ Fishing</label></li>
+      <li><input type="checkbox" id="t110"><label class="label-text" for="t110">Bait fish for herring until 15 Fishing</label></li>
+      <li><input type="checkbox" id="t111"><label class="label-text" for="t111">Net fish until anchovy and reach 16 Fishing</label></li>
+      <li><input type="checkbox" id="t112"><label class="label-text" for="t112">Run northeast and cook shrimp</label></li>
+      <li><input type="checkbox" id="t113"><label class="label-text" for="t113">Run northeast to dungeon icon and climb ladder</label></li>
+      <li><input type="checkbox" id="t114"><label class="label-text" for="t114">Kill an imp with earth spell; pick up and save ashes</label></li>
+      <li><input type="checkbox" id="t115"><label class="label-text" for="t115">Run north to Statue of Ates and pet Caique (bird on rock)</label></li>
+      <li><input type="checkbox" id="t116"><label class="label-text" for="t116">Run north and observe gemstone crab burrow; get 20 Attack on crab and train Magic (defensive) until burrow and 5+ Defence</label></li>
+      <li><input type="checkbox" id="t117"><label class="label-text" for="t117">Take closest rowboat to Gloomthorn</label></li>
+      <li><input type="checkbox" id="t118"><label class="label-text" for="t118">Run east to Mons Gratia and kill icefiend with fire spells</label></li>
+      <li><input type="checkbox" id="t119"><label class="label-text" for="t119">Run southeast to Quetzacalli Gorge, kill 5 rabbits with mace and bury bones</label></li>
+      <li><input type="checkbox" id="t120"><label class="label-text" for="t120">Home teleport to Yama's lair and bury ashes</label></li>
+      <li><input type="checkbox" id="t121"><label class="label-text" for="t121">Hop 666 hoppy stones</label></li>
+      <li><input type="checkbox" id="t122"><label class="label-text" for="t122">Return to Civitas Illa Fortis</label></li>
+    </ul>
+
+    <h2>POH, High Crafting & Cam Torum</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t123"><label class="label-text" for="t123">Quetzal to Aldarin and run north to bank; equip Tyras helm</label></li>
+      <li><input type="checkbox" id="t124"><label class="label-text" for="t124">Deposit all, withdraw coins and chisel</label></li>
+      <li><input type="checkbox" id="t125"><label class="label-text" for="t125">Run north to POH portal and enter build mode</label></li>
+      <li><input type="checkbox" id="t126"><label class="label-text" for="t126">Build cheapest POH room</label></li>
+      <li><input type="checkbox" id="t127"><label class="label-text" for="t127">Cut rubies at Gem shop to 70 Crafting (or at least 60 if lower GP), ~400k GP profit</label></li>
+      <li><input type="checkbox" id="t128"><label class="label-text" for="t128">Take boat to Sunset Coast</label></li>
+      <li><input type="checkbox" id="t129"><label class="label-text" for="t129">Run north to helmet shop and buy bronze and adamant full helms</label></li>
+      <li><input type="checkbox" id="t130"><label class="label-text" for="t130">Run southeast to Fishing shop and buy: 50 tuna, 100 swordfish (raw)</label></li>
+      <li><input type="checkbox" id="t131"><label class="label-text" for="t131">Run north to Cam Torum</label></li>
+      <li><input type="checkbox" id="t132"><label class="label-text" for="t132">At herb shop, buy vial of water pack, pestle and mortar, 1 eye of newt pack</label></li>
+      <li><input type="checkbox" id="t133"><label class="label-text" for="t133">Buy steel, mith, adamant, rune pickaxe from mining shop</label></li>
+      <li><input type="checkbox" id="t134"><label class="label-text" for="t134">Get haircut (Samurai, maroon color) and trim beard clean shaven</label></li>
+      <li><input type="checkbox" id="t135"><label class="label-text" for="t135">Run to rune shop; buy 50 law runes, 500 natures, 100 death runes and extra elementals as needed</label></li>
+      <li><input type="checkbox" id="t136"><label class="label-text" for="t136">Low alch runes or junk while doing tasks for Magic XP</label></li>
+      <li><input type="checkbox" id="t137"><label class="label-text" for="t137">Run east to bank and deposit Herblore supplies; keep offensive runes and all pickaxes</label></li>
+      <li><input type="checkbox" id="t138"><label class="label-text" for="t138">Withdraw big net</label></li>
+      <li><input type="checkbox" id="t139"><label class="label-text" for="t139">Go to pub and buy 5 jugs of wine</label></li>
+    </ul>
+
+    <h2>Back to Varlamore & Melee Gear</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t140"><label class="label-text" for="t140">League menu teleport to Varlamore</label></li>
+      <li><input type="checkbox" id="t141"><label class="label-text" for="t141">Run west to blacksmith and buy: adamant platebody/legs, bronze platebody/legs, mithril spear, steel platebody, iron dagger</label></li>
+      <li><input type="checkbox" id="t142"><label class="label-text" for="t142">Equip steel platebody, full bronze, iron dagger, mithril spear</label></li>
+      <li><input type="checkbox" id="t143"><label class="label-text" for="t143">Low alch steel platebody</label></li>
+      <li><input type="checkbox" id="t144"><label class="label-text" for="t144">Run south to bank and deposit adamant, bronze, steel platebody, iron dagger</label></li>
+      <li><input type="checkbox" id="t145"><label class="label-text" for="t145">Withdraw 15 pineapples, bucket, chaos runes (or wind bolt runes), big net, fill rest with jugs of wine; equip mithril spear</label></li>
+    </ul>
+
+    <h2>Civitas Dungeons & Stonecutter Outpost</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t146"><label class="label-text" for="t146">Run northwest to nearby dungeon icon, go down and kill a Guard</label></li>
+      <li><input type="checkbox" id="t147"><label class="label-text" for="t147">Go upstairs, run to western Civitas wall then north to other dungeon icon</label></li>
+      <li><input type="checkbox" id="t148"><label class="label-text" for="t148">Go down ladder, run northwest, go up ladder and kill a thief</label></li>
+      <li><input type="checkbox" id="t149"><label class="label-text" for="t149">Run south and milk a buffalo</label></li>
+      <li><input type="checkbox" id="t150"><label class="label-text" for="t150">Run south and kill a buffalo</label></li>
+      <li><input type="checkbox" id="t151"><label class="label-text" for="t151">In house east of allotments, churn butter</label></li>
+      <li><input type="checkbox" id="t152"><label class="label-text" for="t152">Pick up potato southwest, bake potato and add butter</label></li>
+      <li><input type="checkbox" id="t153"><label class="label-text" for="t153">Put 15 pineapples into compost bin and close lid</label></li>
+      <li><input type="checkbox" id="t154"><label class="label-text" for="t154">Pickpocket farmer until 3 potato seeds</label></li>
+      <li><input type="checkbox" id="t155"><label class="label-text" for="t155">Buy rake from Harminia and rake allotment patch</label></li>
+      <li><input type="checkbox" id="t156"><label class="label-text" for="t156">Plant potatoes, buy 2 compost, and protect potato patch</label></li>
+      <li><input type="checkbox" id="t157"><label class="label-text" for="t157">Run west and safespot dire wolf over plants</label></li>
+      <li><input type="checkbox" id="t158"><label class="label-text" for="t158">Run southwest and kill a scorpion with mithril spear</label></li>
+      <li><input type="checkbox" id="t159"><label class="label-text" for="t159">Mine 6+ tin and 1+ copper ore (reach 15 Mining)</label></li>
+      <li><input type="checkbox" id="t160"><label class="label-text" for="t160">Run southeast to Jaguars east of Sunset Coast and defeat one without taking damage</label></li>
+      <li><input type="checkbox" id="t161"><label class="label-text" for="t161">Run southeast and kill a hill giant (Demonic Pact point)</label></li>
+      <li><input type="checkbox" id="t162"><label class="label-text" for="t162">Run far east to Stonecutter Outpost; mine: 1 clay, 50 iron, 20 silver, 2 coal, 3 gold, 50 mithril (extra iron to 55 Mining)</label></li>
+      <li><input type="checkbox" id="t163"><label class="label-text" for="t163">Run east to coast and big-net fish 20 mackerel and 10 cod</label></li>
+      <li><input type="checkbox" id="t164"><label class="label-text" for="t164">Run northwest to Oryx (northwest of hunter icon) and kill with melee (use magic to chip if desired)</label></li>
+      <li><input type="checkbox" id="t165"><label class="label-text" for="t165">Run north to Civitas Crafting shop and buy tiara, ring, and amulet moulds</label></li>
+      <li><input type="checkbox" id="t166"><label class="label-text" for="t166">Check upstairs for soft clay (1-minute respawn) or make clay using bucket of water</label></li>
+      <li><input type="checkbox" id="t167"><label class="label-text" for="t167">Use potter's wheel then fire at pottery oven</label></li>
+      <li><input type="checkbox" id="t168"><label class="label-text" for="t168">Withdraw 150 arrow shafts &amp; 150 feathers and make 150 headless arrows (if not already)</label></li>
+      <li><input type="checkbox" id="t169"><label class="label-text" for="t169">Smelt at furnace: 1 bronze bar, 15 iron bars</label></li>
+      <li><input type="checkbox" id="t170"><label class="label-text" for="t170">At anvil, smith 150 iron arrowtips</label></li>
+      <li><input type="checkbox" id="t171"><label class="label-text" for="t171">Make 150 iron arrows</label></li>
+      <li><input type="checkbox" id="t172"><label class="label-text" for="t172">Smelt 20 silver bars and craft 20 silver tiaras</label></li>
+    </ul>
+
+    <h2>Thieving, Puro-Puro & High Thieving</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t173"><label class="label-text" for="t173">Deposit all, withdraw coins, dramen staff, and jugs of wine; buy extra wine at bar for thieving XP</label></li>
+      <li><input type="checkbox" id="t174"><label class="label-text" for="t174">Pickpocket Farmer south of Varlamore to 36 Thieving</label></li>
+      <li><input type="checkbox" id="t175"><label class="label-text" for="t175">Run southwest to fairy ring and teleport to Zanaris</label></li>
+      <li><input type="checkbox" id="t176"><label class="label-text" for="t176">Buy Slayer staff and anti-dragon shield in Zanaris; equip shield</label></li>
+      <li><input type="checkbox" id="t177"><label class="label-text" for="t177">Enter Puro-Puro, claim butterfly net from Elnock Inquisitor</label></li>
+      <li><input type="checkbox" id="t178"><label class="label-text" for="t178">Catch 50 implings in Puro-Puro (camp a baby/young spawn)</label></li>
+      <li><input type="checkbox" id="t179"><label class="label-text" for="t179">Teleport to Aldarin (CKQ)</label></li>
+      <li><input type="checkbox" id="t180"><label class="label-text" for="t180">Run to Ruby harvest butterflies west and catch 1</label></li>
+      <li><input type="checkbox" id="t181"><label class="label-text" for="t181">Go upstairs in house northeast of Ruby harvests and lockpick chests until 2 gold bars and 40+ Thieving</label></li>
+    </ul>
+
+    <h2>Late Varlamore Loop & Karamja</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t182"><label class="label-text" for="t182">League menu teleport to Varlamore</label></li>
+      <li><input type="checkbox" id="t183"><label class="label-text" for="t183">Withdraw amulet mould, ring mould, cut sapphire, cut emerald</label></li>
+      <li><input type="checkbox" id="t184"><label class="label-text" for="t184">Make sapphire amulet and emerald ring at furnace</label></li>
+      <li><input type="checkbox" id="t185"><label class="label-text" for="t185">Pickpocket guards until you have 28 coin pouches, then open all at once</label></li>
+      <li><input type="checkbox" id="t186"><label class="label-text" for="t186">Run to southern Varlamore gate and pickpocket Master Farmer</label></li>
+      <li><input type="checkbox" id="t187"><label class="label-text" for="t187">Run east and defeat 3 chickens in 6 seconds using melee (prep low HP if needed)</label></li>
+      <li><input type="checkbox" id="t188"><label class="label-text" for="t188">If 53 Magic, withdraw death rune and cast Earth Blast for task</label></li>
+      <li><input type="checkbox" id="t189"><label class="label-text" for="t189">If 54 Magic, cast Civitas teleport</label></li>
+      <li><input type="checkbox" id="t190"><label class="label-text" for="t190">Unlock Karamja region (if not already)</label></li>
+      <li><input type="checkbox" id="t191"><label class="label-text" for="t191">League menu teleport to Karamja</label></li>
+      <li><input type="checkbox" id="t192"><label class="label-text" for="t192">Run to Brimhaven Agility Arena and complete 10 tickets</label></li>
+      <li><input type="checkbox" id="t193"><label class="label-text" for="t193">Buy Snapdragon from Jackie</label></li>
+      <li><input type="checkbox" id="t194"><label class="label-text" for="t194">Run to Karamja volcano, enter Tzhaar area and safespot a Tzhaar with water spells</label></li>
+      <li><input type="checkbox" id="t195"><label class="label-text" for="t195">Go upstairs and run to Musa Point</label></li>
+      <li><input type="checkbox" id="t196"><label class="label-text" for="t196">Pick 10 bananas and get job from Luthas</label></li>
+      <li><input type="checkbox" id="t197"><label class="label-text" for="t197">Fill crate with bananas</label></li>
+      <li><input type="checkbox" id="t198"><label class="label-text" for="t198">Teleport to Karamja again or charter back to Brimhaven</label></li>
+      <li><input type="checkbox" id="t199"><label class="label-text" for="t199">Take cart to Shilo Village</label></li>
+      <li><input type="checkbox" id="t200"><label class="label-text" for="t200">Run north across bridge and pay barkeep in Paramaya Inn to sleep (use upstairs if needed)</label></li>
+      <li><input type="checkbox" id="t201"><label class="label-text" for="t201">Take shortcut across river</label></li>
+      <li><input type="checkbox" id="t202"><label class="label-text" for="t202">Withdraw fly fishing rod and feathers and fish 75 trout and 1+ salmon</label></li>
+      <li><input type="checkbox" id="t203"><label class="label-text" for="t203">Withdraw food, axe, small net, coins, Slayer staff</label></li>
+      <li><input type="checkbox" id="t204"><label class="label-text" for="t204">Take cart to Brimhaven and kill a snake near fruit tree patch</label></li>
+      <li><input type="checkbox" id="t205"><label class="label-text" for="t205">Enter Brimhaven dungeon and kill a black demon (safespot)</label></li>
+      <li><input type="checkbox" id="t206"><label class="label-text" for="t206">Teleport to Karamja via League menu</label></li>
+      <li><input type="checkbox" id="t207"><label class="label-text" for="t207">Run south to Tai Bwo Wannai, buy machete from General Store</label></li>
+      <li><input type="checkbox" id="t208"><label class="label-text" for="t208">Speak to Murcaily to begin Tai Bwo Wannai Cleanup</label></li>
+      <li><input type="checkbox" id="t209"><label class="label-text" for="t209">Cut dense jungle until fully depleted</label></li>
+      <li><input type="checkbox" id="t210"><label class="label-text" for="t210">Run south and catch a karambwanji</label></li>
+      <li><input type="checkbox" id="t211"><label class="label-text" for="t211">Teleport to Varlamore via League menu</label></li>
+      <li><input type="checkbox" id="t212"><label class="label-text" for="t212">Run west to Death's office and sacrifice Slayer staff</label></li>
+      <li><input type="checkbox" id="t213"><label class="label-text" for="t213">Buy buckets at General Store and fill supercompost bin at nearby patch</label></li>
+    </ul>
+
+    <h2>Wrap-Up & Ongoing Goals</h2>
+    <p class="note">
+      At this point you should be around 3,300+ points and 181 tasks completed. Whenever you have downtime, work on lobster, tuna, and swordfish tasks — they take longer than you’d expect but are good points.
+    </p>
+    <ul class="checklist">
+      <li><input type="checkbox" id="t214"><label class="label-text" for="t214">Work on Karamja easy diary (consider using lamp on Prayer for bone shards level)</label></li>
+      <li><input type="checkbox" id="t215"><label class="label-text" for="t215">Explore newly unlocked zones and push toward Demonic Pact unlocks and overheads</label></li>
+      <li><input type="checkbox" id="t216"><label class="label-text" for="t216">Use Hunter contracts and blessed bone mining toward 43 Prayer</label></li>
+      <li><input type="checkbox" id="t217"><label class="label-text" for="t217">Safespot blue dragons in Dragon Nest and break bones down for shards</label></li>
+      <li><input type="checkbox" id="t218"><label class="label-text" for="t218">Lean into your chosen relic strengths when unsure what to do next</label></li>
+      <li><input type="checkbox" id="t219"><label class="label-text" for="t219">Wear your pink skirt proudly</label></li>
+    </ul>
+
+    <h2>Hunter Contracts Notes (Pre-Karamja Rush)</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="hc01"><label class="label-text" for="hc01">From 46–57 Hunter: do any contracts (4–5 should reach 57)</label></li>
+      <li><input type="checkbox" id="hc02"><label class="label-text" for="hc02">At 57: continue Gilman contracts until Snowy Knight; don’t complete, move to Cervus</label></li>
+      <li><input type="checkbox" id="hc03"><label class="label-text" for="hc03">Do Cervus contracts until Pyre Fox; don’t complete, move to Ornus</label></li>
+      <li><input type="checkbox" id="hc04"><label class="label-text" for="hc04">Continue Ornus Jerboa/Red chin contracts until 72 Hunter</label></li>
+      <li><input type="checkbox" id="hc05"><label class="label-text" for="hc05">Continue expert Hunter contracts until you feel done (99 is quick with Woodsman)</label></li>
+    </ul>
+
+    <p class="footer-note">
+      Note: Pact choices matter long-term; try not to take the first Magic Pact solely for early-level boosts unless it fits your build and reset plan.
+    </p>
+  </div>
+</body>
+</html>
