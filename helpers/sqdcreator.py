@@ -21,7 +21,7 @@ parser = ArgumentParser()
 parser.add_argument(
     "-p",
     "--path",
-    default=Path("./../side-quest-dispatche/_posts"),
+    default=Path("./docs/side-quest-dispatch/_posts"),
     help="Directory where files should be created"
 )
 parser.add_argument(
